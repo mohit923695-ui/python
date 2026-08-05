@@ -11,7 +11,7 @@ elif(marks<=70 and marks>=60):
     grade = "c"
 elif(marks<=60 and marks>=50):
     grade = "d"
-elif(marks<=50 and marks>=40):
+elif(marks<=50 and marks<=40):
     grade = "fail"
 
 print("your grade is ", grade)
