@@ -1,6 +1,6 @@
 post = input("enter your post: ")
 
-if("Mohit"in post):                  #because m is in capital letter 
+if("Mohit".lower() in post.lower()):
     print("talking about mohit")
 else:
     print("not talking about mohit")
