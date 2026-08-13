@@ -8,16 +8,16 @@
 
 #for print any code many times than use function and they also reduce the number of line of code 
 
-def avg():
+def avg():                                  #function definition 
     a = int(input("enter the number: "))
-    b = int(input("enter the numbr : "))
+    b = int(input("enter the number : "))
     c = int(input("enter the number :  "))
 
     average = (a+b+c)/3
 
     print(average)
 
-avg()
+avg()                                       #function call
 print("thanks")    
 avg()    
 print("thanks")
