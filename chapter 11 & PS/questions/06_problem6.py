@@ -1,4 +1,4 @@
-#write a classs 'complex'to represent complex number , using with overloaded operators '+' amd '*' which add and multiple them 
+
 
 
 
@@ -14,18 +14,12 @@ class vector:
     def __mul__(self, other,add):
         print(f"{self.x} * {other.x},{self.y} * {other.y},{self.z} * {other.z}")           
 
-    def __str__(self,):
-        print(f"vector({self.x},{self.y},{self.z}")
+    def __str__(self):
+         return (f"({self.x}i+{self.y}j+{self.z}k")
 
 
 v1 = vector(1,2,3,)
 v2 =vector(4,5,6) 
 v3 = vector(7,8,9)
 
-print(v1 +v2)
-print(v1 * v2)
-
-
-print(v1 + v3 )
-print(v1 * v3)
-
+print(v1+v2)
