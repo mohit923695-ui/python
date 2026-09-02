@@ -1,25 +1,38 @@
 
 
-
-
-class vector:
-    def __init__(self,x,y,z ):
-        self.x = x 
+class Vector:
+    def __init__(self, x, y, z):
+        self.x = x
         self.y = y
-        self.z = z 
+        self.z = z
 
+    # + operator
     def __add__(self, other):
-        print(f"{self.x}+ {other.x},{self.y}+ {other.y},{self.z}+ {other.z}")
+        return Vector(
+            self.x + other.x,
+            self.y + other.y,
+            self.z + other.z
+        )
 
-    def __mul__(self, other,add):
-        print(f"{self.x} * {other.x},{self.y} * {other.y},{self.z} * {other.z}")           
+    # * operator
+    def __mul__(self, other):
+        return Vector(
+            self.x * other.x,
+            self.y * other.y,
+            self.z * other.z
+        )
 
+    # print() ke liye
     def __str__(self):
-         return (f"({self.x}i+{self.y}j+{self.z}k")
+        return f"({self.x}i+ {self.y}j+ {self.z}k)"
 
 
-v1 = vector(1,2,3,)
-v2 =vector(4,5,6) 
-v3 = vector(7,8,9)
+v1 = Vector(1, 2, 3)
+v2 = Vector(4, 5, 6)
+v3 = Vector(7, 8, 9)
 
-print(v1+v2)
+print(v1 + v2)
+print(v1 * v2)
+
+print(v1 + v3)
+print(v1 * v3)
