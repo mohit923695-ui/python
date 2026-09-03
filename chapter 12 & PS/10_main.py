@@ -1,4 +1,3 @@
 # __main__
 
-
-from 
+from module import my_function 
