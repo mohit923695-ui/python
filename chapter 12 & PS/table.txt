@@ -1,0 +1,10 @@
+table of 678: 678 x 1 = 678
+table of 678: 678 x 2 = 1356
+table of 678: 678 x 3 = 2034
+table of 678: 678 x 4 = 2712
+table of 678: 678 x 5 = 3390
+table of 678: 678 x 6 = 4068
+table of 678: 678 x 7 = 4746
+table of 678: 678 x 8 = 5424
+table of 678: 678 x 9 = 6102
+table of 678: 678 x 10 = 6780
